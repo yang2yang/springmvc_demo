@@ -12,5 +12,6 @@
 </head>
 <body>
 <p>出现这个页面说明已经配置好了springmvc</p>
+<p>${hello}</p>
 </body>
 </html>
