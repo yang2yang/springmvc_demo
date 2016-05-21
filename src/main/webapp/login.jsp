@@ -6,13 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form"%>
+<%@ page isELIgnored="false" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-<form action="/springmvc_demo/showLogin" method="post" commandName="user">
+<form action="/springmvcdemo/showLogin" method="post" commandName="user">
     <p>First name: <input type="text" name="username" /></p>
     <p>Last name: <input type="text" name="password" /></p>
     <input type="submit" value="Submit" />
